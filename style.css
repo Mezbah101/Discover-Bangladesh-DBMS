@@ -200,8 +200,6 @@ background-image: linear-gradient(white,green);
 
   .third-section{
 
- height: 600px;
- width: 500px;
   }
 
 /* .secanime {
@@ -222,5 +220,35 @@ background-image: linear-gradient(white,green);
       background-position: 0% 50%;
     }
   } */
+
+  .imersion-grid{
+      
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+   grid-row-gap: 30px;
+   grid-column-gap: 18px;
+ align-items: center;
+ justify-content: center; }
+
+.imersio-p-div img{
+
+    height: 400px;
+    width: 300px;
+    border: 1px solid wheat;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+
+.imersion-headtxt{
+
+    margin-left: 600px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
 
 
