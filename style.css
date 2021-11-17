@@ -454,4 +454,40 @@ background-image: linear-gradient(white,green);
     }
 
 
+    .sl-btns{
+
+        
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+     
+    }
+
+    .sl-btns a{
+        padding: 15px 30px;
+        border-radius: 20px;
+    }
+
+    .sl-btns a button{
+    display: inline-block;
+    padding: 17px 27px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    background-color: purple;
+    border: none;
+    -webkit-transition-duration: 0.4s;
+   transition-duration: 0.4s;
+   border-radius: 8px;
+   box-shadow: 0 10px #998;
+ }
+ 
+ .sl-btns a button:active {
+    background-color: #8842d5;
+    box-shadow: 0 6px #667;
+    transform: translateY(5px);
+  }
+
+    
+
 
